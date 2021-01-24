@@ -1,4 +1,4 @@
-baseUrl: junctionxhanoiblog.github.io 
+baseUrl: https://junctionxhanoiblog.github.io 
 languageCode: en-us
 theme: terminal
 paginate: 5
@@ -33,7 +33,7 @@ languages:
     params:
       logo:
         logoText: junctionXhanoi 
-        logoHomeLink: /
+        logoHomeLink: https://junctionxhanoiblog.github.io  
 
     menu:
       main:
@@ -42,12 +42,12 @@ languages:
           url: /about
         - identifier: contribute
           name: contribute
-          url: /contribute
+          url: https://junctionxhanoiblog.github.io/contribute
   vi:
     languageName: viet
     title: junctionXhanoi 
-    subtitle: Miễn là phần mềm
-    tagline: Blog về phần mềm hoạt động trên tinh thần open-source
+    subtitle: Làm chủ tương lai
+    tagline: JunctionX Hanoi is a platform that connects and promotes collaboration between tech, design and business talents to pioneer innovative solutions. As Vietnam is joining the global movement in the industry 4.0, JunctionX Hanoi’s mission is to bring about the generational change, equip them with knowledge, creativity and passion to challenge the status quo, and secure a more prosperous future. 
     keywords: 'blog, software, phần-mềm, công-nghệ, code'
     keywords: ''
     menuMore: xem thêm
@@ -57,7 +57,7 @@ languages:
     params:
       logo:
         logoText: junctionXhanoi
-        logoHomeLink: /vi
+        logoHomeLink: https://junctionxhanoiblog.github.io/vi
 
     menu:
       main:
@@ -66,7 +66,7 @@ languages:
           url: /vi/about
         - identifier: contribute
           name: đóng góp
-          url: /vi/contribute
+          url: https://junctionxhanoiblog.github.io/vi/contribute
 
 taxonomies:
   author: authors

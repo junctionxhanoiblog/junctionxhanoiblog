@@ -1,3 +1,7 @@
 [submodule "themes/terminal"]
 	path = themes/terminal
 	url = https://github.com/junctionxhanoiblog/hugo-theme-terminal
+[submodule "public"]
+	path = public
+	url = https://github.com/junctionxhanoiblog/junctionxhanoiblog.github.io
+	branch = main
