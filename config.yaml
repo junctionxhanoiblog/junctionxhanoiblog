@@ -1,0 +1,73 @@
+baseUrl: junctionxhanoiblog.github.io 
+languageCode: en-us
+theme: terminal
+paginate: 5
+DefaultContentLanguage: en
+
+params:
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: posts
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor: green
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 3
+  # show selector to switch language
+  showLanguageSelector: true
+  # set theme to full screen width
+  fullWidthTheme: false
+  # center theme with default width
+  centerTheme: false
+  # favicon: /favicon.ico
+
+languages:
+  en:
+    languageName: english
+    title: junctionXhanoi 
+    subtitle: Hack the future 
+    tagline: JunctionX Hanoi is a platform that connects and promotes collaboration between tech, design and business talents to pioneer innovative solutions. As Vietnam is joining the global movement in the industry 4.0, JunctionX Hanoi’s mission is to bring about the generational change, equip them with knowledge, creativity and passion to challenge the status quo, and secure a more prosperous future.
+    keywords: 'blog, software, software-engineering, technology, code'
+    menuMore: show more
+    readMore: read more
+    readOtherPosts: read other posts
+
+    params:
+      logo:
+        logoText: junctionXhanoi 
+        logoHomeLink: /
+
+    menu:
+      main:
+        - identifier: about
+          name: about
+          url: /about
+        - identifier: contribute
+          name: contribute
+          url: /contribute
+  vi:
+    languageName: viet
+    title: junctionXhanoi 
+    subtitle: Miễn là phần mềm
+    tagline: Blog về phần mềm hoạt động trên tinh thần open-source
+    keywords: 'blog, software, phần-mềm, công-nghệ, code'
+    keywords: ''
+    menuMore: xem thêm
+    readMore: đọc thêm
+    readOtherPosts: đọc bài khác
+
+    params:
+      logo:
+        logoText: junctionXhanoi
+        logoHomeLink: /vi
+
+    menu:
+      main:
+        - identifier: about
+          name: giới thiệu
+          url: /vi/about
+        - identifier: contribute
+          name: đóng góp
+          url: /vi/contribute
+
+taxonomies:
+  author: authors
+  tag: tags
