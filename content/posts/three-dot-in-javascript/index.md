@@ -1,7 +1,7 @@
 ---
 title: "Toán tử ... (spread) trong Javascript"
 date: 2021-01-26T09:38:16+07:00
-authors: ["ngdmau"]
+author: "ngdmau"
 tags: ["javascript", "spread", "three dots"]
 keywords: ["javascript"]
 description: "Cách dùng cơ bản của toán tử spread"
