@@ -25,9 +25,9 @@ Trước khi bắt đầu, bạn đọc nên chú ý React Server Component vẫ
 
 ## Bước 1: Xem Video giới thiệu
 
-<figure class="video_container">
-  <iframe src="https://youtu.be/TQQPAU21ZUw" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+{{< rawhtml >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TQQPAU21ZUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /rawhtml >}}
 
 ## Bước 2: Clone demo
 

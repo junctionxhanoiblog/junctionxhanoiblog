@@ -13,20 +13,20 @@ Toán tử spread là một tính năng mới được bổ sung vào Javascript
 
 Nó được sử dụng chủ yếu để tạo bản sao của các đối tượng trong Javascript. Việc sử dụng spread thường giúp cho code trở nên ngắn gọn và dễ đọc hơn.
 
-Cú pháp: Toán tử spread được ký hiệu bằng dấu ba chấm: ...  
+Cú pháp: Toán tử spread được ký hiệu bằng dấu ba chấm: ...
 ```javascript
 let array = [...value]
 ```
-Ta sẽ sử dụng các ví dụ liên quan đến mảng (array), do nó là iterable object được dùng nhiều nhất trong JS.  
-**Ví dụ 1. Copy một mảng**  
+Ta sẽ sử dụng các ví dụ liên quan đến mảng (array), do nó là iterable object được dùng nhiều nhất trong JS.
+**Ví dụ 1. Copy một mảng**
 Thông thường, nếu ta làm như sau:
 ```javascript
 let array1 = [1, 3, 5, 7];
 let array2 = array1;
 array1.push(9);
 console.log(array2);
-```  
-Khi đó, mọi thay đổi ở mảng array1 sẽ ảnh hưởng đến array2. Kết quả nhận được (thường không phải mong muốn của dev lắm) sẽ là:  
+```
+Khi đó, mọi thay đổi ở mảng array1 sẽ ảnh hưởng đến array2. Kết quả nhận được (thường không phải mong muốn của dev lắm) sẽ là:
 ```bash
 [1, 3, 5, 7, 9]
 ```
@@ -50,15 +50,15 @@ console.log(desserts);
 
 // append mảng desserts ngay sau phần tử 'flan'
 let desserts2 = ['icecream', 'flan', ...deserts, 'frozen yoghurt'];
-console.log(desserts2);  
+console.log(desserts2);
 ```
 Kết quả là:
 ```bash
-[ 'icecream', 'flan', 'frozen yoghurt', 'cake', 'cookie', 'donut' ] 
+[ 'icecream', 'flan', 'frozen yoghurt', 'cake', 'cookie', 'donut' ]
 [ 'icecream', 'flan', 'cake', 'cookie', 'donut', 'frozen yoghurt' ]
 ```
 
-**Ví dụ 3. Chuyển mảng thành tham số:**  
+**Ví dụ 3. Chuyển mảng thành tham số:**
 ```javascript
 function multiply(number1, number2, number3) {
     console.log(number1 * number2 * number3);
@@ -66,7 +66,7 @@ function multiply(number1, number2, number3) {
 let numbers = [1, 2, 3];
 multiply(...numbers);
 ```
-Ở đây, thay vì truyền các tham số lần lượt là numbers[0], numbers[1] và numbers[2], toán tử spread cho phép chuyển 1 mảng thành một loạt các phần tử đơn lẻ tương ứng.  
+Ở đây, thay vì truyền các tham số lần lượt là numbers[0], numbers[1] và numbers[2], toán tử spread cho phép chuyển 1 mảng thành một loạt các phần tử đơn lẻ tương ứng.
 
 
 Trên đây là 3 ví dụ cơ bản về cách sử dụng toán tử spread trong Javascript, bài viết được dịch lại từ [codeburst](https://codeburst.io/what-are-three-dots-in-javascript-6f09476b03e1)
